@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/public/lib/gettopdice.js" line="27" mnemonic="2" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e36ba278-27a2-4771-ab18-a380d294c711" name="Default" comment="" />
+    <list default="true" id="230e9fa7-6542-4a8d-aa00-cc13263b6f8c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,18 +17,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="38" column="28" lean-forward="false" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/assets/js/demo.js">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -34,26 +27,94 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dashboard.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="177" column="43" lean-forward="true" selection-start-line="177" selection-start-column="43" selection-end-line="177" selection-end-column="43" />
+            <state relative-caret-position="576">
+              <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/index.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list-top.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/list-top.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="154" column="7" lean-forward="true" selection-start-line="154" selection-start-column="7" selection-end-line="154" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list_top.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/list_top.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/users.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gettopdice.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/lib/gettopdice.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
               <folding>
-                <element signature="n#div#0;n#div#0;n#nav#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1517919720885" expanded="true" signature="414:428" ph="..." />
+                <marker date="1517919720885" expanded="true" signature="637:654" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="result.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/css/result.css">
+      <file leaf-file-name="utils.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/lib/utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            <state relative-caret-position="2808">
+              <caret line="156" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -64,48 +125,49 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
-        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>data-background-color</find>
-      <find>Upgrade to PRO</find>
-      <find>../assets</find>
-      <find>../</find>
-      <find>Notifications Style</find>
+      <find>function getHashValue(){listAgent.restoreLink()}var list_agent=function(){},pagingAgent=new listAgentPaging,templateHTML=new templateHTML,agentSelect=new AgentSelect,agentFilter=new FilterAgent,pagingListGroup=new listAgentPaging;pagingListGroup.initData();var pagingListRole=new listAgentPaging;pagingListRole.initData();var groupEntities=new mapviewcategory,roleEntities=new mapviewrole,direct=new ModuleDirect,mapagent=new mapviewagent;list_agent.prototype.createTemplate=function(t){if(void 0!==t)try{var e=JSON.parse(t);if(1===e.status&amp;&amp;_.isArray(e.data.detail)){pagingAgent.setTotal(e.data.total),e.data.detail.length&gt;0?$(&quot;#info-list #total-rows&quot;).html(String.format(&quot;{0} {1} {2} {3} {4} {5}&quot;,Language.View,e.data.detail.length,Language.In,Language.Total,e.data.total,Language.Agent)):$(&quot;#info-list #total-rows&quot;).html(&quot;&quot;);var a=new TIMESPAN(e.data.lastupdate);void 0!==e.data.lastupdate?$(&quot;#info-list #last-update&quot;).html(String.format(&quot;{0}: {1}&quot;,Language.LastUpdateDate,a.getdatestring())):$(&quot;#info-list #last-update&quot;).html(&quot;&quot;),$(&quot;.list-data-ajax&quot;).html(&quot;&quot;),e.data.detail.map(function(t){void 0!==t[mapagent.keyId()]&amp;&amp;(0===agentSelect.getStatusSelect()?$(&quot;.list-data-ajax&quot;).append(templateHTML.templateListAgentDefault(t,direct)):1===agentSelect.getStatusSelect()?$(&quot;.list-data-ajax&quot;).append(templateHTML.templateListAgentSelected(t,direct)):$(&quot;.list-data-ajax&quot;).append(templateHTML.templateListAgentSelectAll(t,direct)),pagingAgent.setCurrent(pagingAgent.getCurrent()+1),$(&quot;#info-list #total-rows&quot;).html(String.format(&quot;{0} {1} {2} {3} {4} {5}&quot;,Language.View,pagingAgent.getCurrent(),Language.In,Language.Total,e.data.total,Language.Agent)),pagingAgent.getCurrent()&gt;=pagingAgent.getTotal()&amp;&amp;pagingAgent.setStatusStop(!0))})}else-1===e.status?window.location=urllogin:($(&quot;.list-data-ajax&quot;).html(String.format('&lt;div class=&quot;col-md-12 text-center&quot;&gt; &lt;span class=&quot;fs-18 fw-300&quot;&gt;{0}&lt;/span&gt; &lt;/div&gt;',Language.NoData)),$(&quot;#info-list #total-rows&quot;).html(String.format(&quot;{0} {1} {2} {3} {4} {5}&quot;,Language.View,0,Language.In,Language.Total,0,Language.Agent)))}catch(i){console.log(i)}},list_agent.prototype.createTemplateScroll=function(t){if(void 0!==t)try{var e=JSON.parse(t);if(1===e.status&amp;&amp;_.isArray(e.data.detail)){pagingAgent.setTotal(e.data.total),e.data.detail.length&gt;0?$(&quot;#info-list #total-rows&quot;).html(String.format(&quot;{0} {1} {2} {3} {4} {5}&quot;,Language.View,e.data.detail.length,Language.In,Language.Total,e.data.total,Language.Agent)):$(&quot;#info-list #total-rows&quot;).html(&quot;&quot;);var a=new Date(parseInt(e.data.lastupdate)),i={date:a.getDate(),month:a.getMonth()+1,year:a.getFullYear(),hour:a.getHours(),min:a.getMinutes(),sec:a.getSeconds()};if(void 0!==e.data.lastupdate){var n=(&quot;0&quot;+i.date).slice(-2)+&quot;/&quot;+(&quot;0&quot;+i.month).slice(-2)+&quot;/&quot;+i.year+&quot; &quot;+(&quot;0&quot;+i.hour).slice(-2)+&quot;:&quot;+(&quot;0&quot;+i.min).slice(-2);$(&quot;#info-list #last-update&quot;).html(String.format(&quot;{0}: {1}&quot;,Language.LastUpdateDate,n))}else $(&quot;#info-list #last-update&quot;).html(&quot;&quot;);e.data.detail.map(function(t){void 0!==t[mapagent.keyId()]&amp;&amp;(0===agentSelect.getStatusSelect()?$(&quot;.list-data-ajax&quot;).append(templateHTML.templateListAgentDefault(t,direct)):1===agentSelect.getStatusSelect()?$(&quot;.list-data-ajax&quot;).append(templateHTML.templateListAgentSelected(t,direct)):$(&quot;.list-data-ajax&quot;).append(templateHTML.templateListAgentSelectAll(t,direct)),pagingAgent.setCurrent(pagingAgent.getCurrent()+1),pagingAgent.getCurrent()&gt;=pagingAgent.getTotal()&amp;&amp;pagingAgent.setCurrent(pagingAgent.getTotal()),$(&quot;#info-list #total-rows&quot;).html(String.format(&quot;{0} {1} {2} {3} {4} {5}&quot;,Language.View,pagingAgent.getCurrent(),Language.In,Language.Total,e.data.total,Language.Agent)),pagingAgent.getCurrent()&gt;=pagingAgent.getTotal()&amp;&amp;pagingAgent.setStatusStop(!0))})}else-1===e.status?window.location=urllogin:($(&quot;.list-data-ajax&quot;).html(String.format('&lt;div class=&quot;col-md-12 text-center&quot;&gt; &lt;span class=&quot;fs-18 fw-300&quot;&gt;{0}&lt;/span&gt; &lt;/div&gt;',Language.NoData)),$(&quot;#info-list #total-rows&quot;).html(String.format(&quot;{0} {1} {2} {3} {4} {5}&quot;,Language.View,0,Language.In,Language.Total,0,Language.Agent)))}catch(o){console.log(o)}},list_agent.prototype.buildHTMLFilterGroupAction=function(t){if(void 0!==t)try{var e=JSON.parse(t);1===e.status&amp;&amp;_.isArray(e.data.detail)?e.data.detail.map(function(t){if(void 0!==t[groupEntities.keyId()]&amp;&amp;&quot;&quot;!==t[groupEntities.keyId()]){var e=&quot;&quot;;e=agentFilter.getListGroup().length&gt;0&amp;&amp;-1!==agentFilter.getListGroup().indexOf(t[groupEntities.keyId()])?void 0!==t[groupEntities.keyName()]&amp;&amp;&quot;&quot;!==t[groupEntities.keyName()]?String.format(&quot;&lt;option value='{0}' selected='selected'&gt;{1}&lt;/option&gt;&quot;,t[groupEntities.keyId()],t[groupEntities.keyName()]):String.format(&quot;&lt;option value='{0}' selected='selected'&gt;{1}&lt;/option&gt;&quot;,t[groupEntities.keyId()],Language.FullName):void 0!==t[groupEntities.keyName()]&amp;&amp;&quot;&quot;!==t[groupEntities.keyName()]?String.format(&quot;&lt;option value='{0}'&gt;{1}&lt;/option&gt;&quot;,t[groupEntities.keyId()],t[groupEntities.keyName()]):String.format(&quot;&lt;option value='{0}'&gt;{1}&lt;/option&gt;&quot;,t[groupEntities.keyId()],Language.FullName),$(&quot;#group-filter-action&quot;).append(e)}}):-1===e.status&amp;&amp;(window.location=urllogin)}catch(a){console.log(a)}},list_agent.prototype.buildHTMLChangeGroupAction=function(t){if(void 0!==t)try{var e=JSON.parse(t);1===e.status&amp;&amp;_.isArray(e.data.detail)?e.data.detail.map(function(t){if(void 0!==t[groupEntities.keyId()]&amp;&amp;&quot;&quot;!==t[groupEntities.keyId()]){var e=&quot;&quot;;e=pagingListGroup.getListGroups().length&gt;0&amp;&amp;-1!==pagingListGroup.getListGroups().indexOf(t[groupEntities.keyId()])?void 0!==t[groupEntities.keyName()]&amp;&amp;&quot;&quot;!==t[groupEntities.keyName()]?String.format(&quot;&lt;option value='{0}' selected='selected'&gt;{1}&lt;/option&gt;&quot;,t[groupEntities.keyId()],t[groupEntities.keyName()]):String.format(&quot;&lt;option value='{0}' selected='selected'&gt;{1}&lt;/option&gt;&quot;,t[groupEntities.keyId()],Language.FullName):void 0!==t[groupEntities.keyName()]&amp;&amp;&quot;&quot;!==t[groupEntities.keyName()]?String.format(&quot;&lt;option value='{0}'&gt;{1}&lt;/option&gt;&quot;,t[groupEntities.keyId()],t[groupEntities.keyName()]):String.format(&quot;&lt;option value='{0}'&gt;{1}&lt;/option&gt;&quot;,t[groupEntities.keyId()],Language.FullName),$(&quot;#group-change-action&quot;).append(e)}}):-1===e.status&amp;&amp;(window.location=urllogin)}catch(a){console.log(a)}},list_agent.prototype.buildHTMLFilterRoleAction=function(t){if(void 0!==t)try{var e=JSON.parse(t);1===e.status&amp;&amp;_.isArray(e.data.data.detail)?e.data.data.detail.map(function(t){if(void 0!==t[roleEntities.keyId()]&amp;&amp;&quot;&quot;!==t[roleEntities.keyId()]){var e=&quot;&quot;;e=agentFilter.getListRole().length&gt;0&amp;&amp;-1!==agentFilter.getListRole().indexOf(t[roleEntities.keyId()])?void 0!==t[roleEntities.keyName()]&amp;&amp;&quot;&quot;!==t[roleEntities.keyName()]?String.format(&quot;&lt;option value='{0}' selected='selected'&gt;{1}&lt;/option&gt;&quot;,t[roleEntities.keyId()],t[roleEntities.keyName()]):String.format(&quot;&lt;option value='{0}' selected='selected'&gt;{1}&lt;/option&gt;&quot;,t[roleEntities.keyId()],Language.FullName):void 0!==t[roleEntities.keyName()]&amp;&amp;&quot;&quot;!==t[roleEntities.keyName()]?String.format(&quot;&lt;option value='{0}'&gt;{1}&lt;/option&gt;&quot;,t[roleEntities.keyId()],t[roleEntities.keyName()]):String.format(&quot;&lt;option value='{0}'&gt;{1}&lt;/option&gt;&quot;,t[roleEntities.keyId()],Language.FullName),$(&quot;#role-filter-action&quot;).append(e)}}):-1===e.status&amp;&amp;(window.location=urllogin)}catch(a){console.log(a)}},list_agent.prototype.buildHTMLChangeRoleAction=function(t){if(void 0!==t)try{var e=JSON.parse(t);1===e.status&amp;&amp;_.isArray(e.data.data.detail)?(e.data.data.detail.map(function(t){if(void 0!==t[roleEntities.keyId()]&amp;&amp;&quot;&quot;!==t[roleEntities.keyId()]){var e=&quot;&quot;;e=pagingListRole.getListRoles().length&gt;0&amp;&amp;-1!==pagingListRole.getListRoles().indexOf(t[roleEntities.keyId()])?void 0!==t[roleEntities.keyName()]&amp;&amp;&quot;&quot;!==t[roleEntities.keyName()]?String.format(&quot;&lt;option value='{0}' selected='selected'&gt;{1}&lt;/option&gt;&quot;,t[roleEntities.keyId()],t[roleEntities.keyName()]):String.format(&quot;&lt;option value='{0}' selected='selected'&gt;{1}&lt;/option&gt;&quot;,t[roleEntities.keyId()],Language.FullName):void 0!==t[roleEntities.keyName()]&amp;&amp;&quot;&quot;!==t[roleEntities.keyName()]?String.format(&quot;&lt;option value='{0}'&gt;{1}&lt;/option&gt;&quot;,t[roleEntities.keyId()],t[roleEntities.keyName()]):String.format(&quot;&lt;option value='{0}'&gt;{1}&lt;/option&gt;&quot;,t[roleEntities.keyId()],Language.FullName),$(&quot;#role-change-action&quot;).append(e)}}),$(&quot;#role-change-action&quot;).selectdropdownList(&quot;destroy&quot;),$(&quot;#role-change-action&quot;).selectdropdownList(&quot;refresh&quot;)):-1===e.status&amp;&amp;(window.location=urllogin)}catch(a){console.log(a)}},list_agent.prototype.buildHTMLFilterStatusAction=function(t){void 0!==t&amp;&amp;(t.map(function(t){if(void 0!==t.statusid){var e=&quot;&quot;;e=agentFilter.getListStatus().length&gt;0&amp;&amp;-1!==agentFilter.getListStatus().indexOf(t.statusid)?void 0!==t[roleEntities.keyName()]&amp;&amp;&quot;&quot;!==t[roleEntities.keyName()]?String.format(&quot;&lt;option value='{0}' selected='selected'&gt;{1}&lt;/option&gt;&quot;,t.statusid,t[roleEntities.keyName()]):String.format(&quot;&lt;option value='{0}' selected='selected'&gt;{1}&lt;/option&gt;&quot;,t.statusid,Language.FullName):void 0!==t[roleEntities.keyName()]&amp;&amp;&quot;&quot;!==t[roleEntities.keyName()]?String.format(&quot;&lt;option value='{0}'&gt;{1}&lt;/option&gt;&quot;,t.statusid,t[roleEntities.keyName()]):String.format(&quot;&lt;option value='{0}'&gt;{1}&lt;/option&gt;&quot;,t.statusid,Language.FullName),$(&quot;#status-filter-action&quot;).append(e)}}),$(&quot;#status-filter-action&quot;).selectdropdownList(&quot;destroy&quot;),$(&quot;#status-filter-action&quot;).selectdropdownList(&quot;refresh&quot;))},list_agent.prototype.searchAction=function(t){$(&quot;#group-filter-action&quot;).val(null),$(&quot;#group-filter-action&quot;).selectdropdownList(&quot;destroy&quot;),$(&quot;#group-filter-action&quot;).selectdropdownList(&quot;refresh&quot;),$(&quot;#role-filter-action&quot;).val(null),$(&quot;#role-filter-action&quot;).selectdropdownList(&quot;destroy&quot;),$(&quot;#role-filter-action&quot;).selectdropdownList(&quot;refresh&quot;),$(&quot;#status-filter-action&quot;).val(null),$(&quot;#status-filter-action&quot;).selectdropdownList(&quot;destroy&quot;),$(&quot;#status-filter-action&quot;).selectdropdownList(&quot;refresh&quot;),agentSelect.initAllData(),agentFilter.initData(),agentFilter.setKeyWord(t),pagingListGroup.setListGroups([]),pagingListRole.setListRoles([]),$(&quot;.cancel-change-role&quot;).click(),$(&quot;.cancel-change-group&quot;).click(),$(&quot;#advance-filter&quot;).hide(),$(&quot;.pagination-customer li&quot;).removeClass(&quot;active&quot;),$(&quot;#info-select&quot;).hide(),$(&quot;#info-list&quot;).show(),$(&quot;.menu-group-roles&quot;).hide(),$(&quot;.role-agent&quot;).removeClass(&quot;active&quot;),$(&quot;.menu-role-content&quot;).removeClass(&quot;active&quot;),$(&quot;.menu-role-content&quot;).removeClass(&quot;in&quot;),$(&quot;.group-agent&quot;).removeClass(&quot;active&quot;),$(&quot;.menu-group-content&quot;).removeClass(&quot;active&quot;),$(&quot;.menu-group-content&quot;).removeClass(&quot;in&quot;),pagingAgent.initData(),pagingAgent.setKeyWord(t),&quot;&quot;!==t?$(&quot;.list-filter&quot;).hide():($(&quot;.list-filter&quot;).show(),$(&quot;.pagination-customer li:first-child&quot;).addClass(&quot;active&quot;)),direct.initData(),direct.setKeyWord(t),pagingAgent.getListAgentFromURL(function(){pagingAgent.setStatusBusy(!0)},listAgent.createTemplate,function(){pagingAgent.setStatusBusy(!1)}),&quot;&quot;!==$(&quot;#key-search&quot;).val()?($(&quot;#txt-search-on&quot;).html(String.format('{0} &quot;{1}&quot;',Language.SearchResult,$(&quot;#key-search&quot;).val())),$(&quot;#txt-search-on&quot;).show(),$(&quot;#txt-search-off&quot;).hide()):($(&quot;#txt-search-on&quot;).hide(),$(&quot;#txt-search-off&quot;).show()),direct.replacehref()};var listAgent=new list_agent;list_agent.prototype.restoreLink=function(){var t=&quot;&quot;;if(&quot;&quot;!==window.location.hash&amp;&amp;&quot;&quot;!==window.location.search)t=window.location.hash.substr(1);else{if(&quot;&quot;===window.location.hash&amp;&amp;&quot;&quot;!==window.location.search){var e=window.location.search.substr(1),a=RegExp(/^filter=.*/gim);a.test(e)&amp;&amp;(t=e.match(/=.*/gim)[0].substr(1))}&quot;&quot;!==window.location.hash&amp;&amp;&quot;&quot;===window.location.search&amp;&amp;(t=window.location.hash.substr(1)),&quot;&quot;===window.location.hash&amp;&amp;&quot;&quot;===window.location.search&amp;&amp;(t=&quot;&quot;)}if(&quot;&quot;!==t){if(pagingAgent.getStatusBusy())return!1;var i=t;if(direct.checkLink(i)){pagingAgent.initData();var n=JSON.parse(String.b64DecodeUnicode(i));agentFilter.initData(),agentFilter.setLetterFilter(n.filter),agentFilter.setListGroup(n.groupAgent),agentFilter.setListRole(n.roles),agentFilter.setListStatus(n.status),agentFilter.setKeyWord(n.keyWord),agentFilter.setStatusOpenFiler(n.isOpenFilter),$(&quot;#key-search&quot;).val(n.keyWord),direct.setisOpenFilter(agentFilter.getStatusOpenFiler()),direct.setStatus(agentFilter.getListStatus()),direct.setRoles(agentFilter.getListRole()),direct.setGroupAgent(agentFilter.getListGroup()),direct.setFilter(agentFilter.getLetterFilter()),direct.setKeyWord(agentFilter.getKeyWord()),&quot;&quot;!==agentFilter.getLetterFilter()?($(&quot;.pagination-customer li&quot;).removeClass(&quot;active&quot;),$(&quot;*[data-letter=&quot;+agentFilter.getLetterFilter()+&quot;]&quot;).addClass(&quot;active&quot;)):agentFilter.getStatusOpenFiler()?($(&quot;.pagination-customer li&quot;).removeClass(&quot;active&quot;),$(&quot;.pagination-customer li:first-child&quot;).addClass(&quot;active&quot;),$(&quot;.pagination-customer .advance-filter&quot;).addClass(&quot;active&quot;)):($(&quot;.pagination-customer li&quot;).removeClass(&quot;active&quot;),$(&quot;.pagination-customer li:first-child&quot;).addClass(&quot;active&quot;)),agentFilter.getStatusOpenFiler()?($(&quot;#group-filter-action&quot;).val(null),$(&quot;#group-filter-action&quot;).selectdropdownList(&quot;destroy&quot;),$(&quot;#group-filter-action&quot;).selectdropdownList(&quot;refresh&quot;),$(&quot;#role-filter-action&quot;).val(null),$(&quot;#role-filter-action&quot;).selectdropdownList(&quot;destroy&quot;),$(&quot;#role-filter-action&quot;).selectdropdownList(&quot;refresh&quot;),$(&quot;#status-filter-action&quot;).val(null),$(&quot;#status-filter-action&quot;).selectdropdownList(&quot;destroy&quot;),$(&quot;#status-filter-action&quot;).selectdropdownList(&quot;refresh&quot;),pagingAgent.getListGroupFromURL(function(){$(&quot;#group-filter-action&quot;).val(null),$(&quot;#group-filter-action&quot;).html(&quot;&quot;)},listAgent.buildHTMLFilterGroupAction,function(){$(&quot;#group-filter-action&quot;).selectdropdownList(&quot;destroy&quot;),$(&quot;#group-filter-action&quot;).selectdropdownList(&quot;refresh&quot;)}),pagingAgent.getListRolesFromURL(function(){$(&quot;#role-filter-action&quot;).val(null),$(&quot;#role-filter-action&quot;).html(&quot;&quot;)},listAgent.buildHTMLFilterRoleAction,function(){$(&quot;#role-filter-action&quot;).selectdropdownList(&quot;destroy&quot;),$(&quot;#role-filter-action&quot;).selectdropdownList(&quot;refresh&quot;)}),listAgent.buildHTMLFilterStatusAction([{statusid:&quot;Active&quot;,name:Language.StatusActive},{statusid:&quot;Deactive&quot;,name:Language.StatusDeActive}]),$(&quot;#status-filter-action&quot;).selectdropdownList(&quot;refresh&quot;),$(&quot;#advance-filter&quot;).show()):$(&quot;#advance-filter&quot;).hide(),pagingAgent.setLetterFilter(agentFilter.getLetterFilter()),pagingAgent.setKeyWord(agentFilter.getKeyWord()),pagingAgent.setListStatus(agentFilter.getListStatus()),pagingAgent.setListGroups(agentFilter.getListGroup()),pagingAgent.setListRoles(agentFilter.getListRole()),&quot;&quot;===agentFilter.getKeyWord()?pagingAgent.getSigleLoad()===!1&amp;&amp;(pagingAgent.setPageSize(20),pagingAgent.getListAgentFromURL(function(){pagingAgent.setStatusBusy(!0)},listAgent.createTemplate,function(){pagingAgent.setStatusBusy(!1),pagingAgent.setSigleLoad(!0)}),$(&quot;.select-none&quot;).click()):listAgent.searchAction(agentFilter.getKeyWord())}else $(&quot;.pagination-customer li&quot;).removeClass(&quot;active&quot;),$(&quot;.pagination-customer li:first-child&quot;).addClass(&quot;active&quot;),pagingAgent.initData(),pagingAgent.setPageSize(20),pagingAgent.getListAgentFromURL(function(){pagingAgent.setStatusBusy(!0)},listAgent.createTemplate,function(){pagingAgent.setStatusBusy(!1)})}else $(&quot;.pagination-customer li&quot;).removeClass(&quot;active&quot;),$(&quot;.pagination-customer li:first-child&quot;).addClass(&quot;active&quot;),agentFilter.setLetterFilter(&quot;all&quot;),pagingAgent.initData(),pagingAgent.getListAgentFromURL(function(){pagingAgent.setStatusBusy(!0)},listAgent.createTemplate,function(){pagingAgent.setStatusBusy(!1)})},list_agent.prototype.listenEvent=function(){$(document).on(&quot;click&quot;,&quot;.letter-filter&quot;,function(){if(pagingAgent.getStatusBusy())return!1;$(&quot;#group-filter-action&quot;).val(null),$(&quot;#group-filter-action&quot;).selectdropdownList(&quot;destroy&quot;),$(&quot;#group-filter-action&quot;).selectdropdownList(&quot;refresh&quot;),$(&quot;#role-filter-action&quot;).val(null),$(&quot;#role-filter-action&quot;).selectdropdownList(&quot;destroy&quot;),$(&quot;#role-filter-action&quot;).selectdropdownList(&quot;refresh&quot;),$(&quot;#status-filter-action&quot;).val(null),$(&quot;#status-filter-action&quot;).selectdropdownList(&quot;destroy&quot;),$(&quot;#status-filter-action&quot;).selectdropdownList(&quot;refresh&quot;),agentSelect.initAllData(),agentFilter.initData();var t=$(this).data(&quot;letter&quot;);void 0===t&amp;&amp;(t=&quot;all&quot;),$(&quot;.list-filter li&quot;).removeClass(&quot;active&quot;),$(this).addClass(&quot;active&quot;),pagingAgent.initData(),pagingAgent.setLetterFilter(t),pagingAgent.setSigleLoad(!0),pagingAgent.getListAgentFromURL(function(){pagingAgent.setStatusBusy(!0)},listAgent.createTemplate,function(){pagingAgent.setStatusBusy(!1),pagingAgent.setSigleLoad(!1)}),agentFilter.setLetterFilter(t),direct.initData(),direct.setFilter(agentFilter.getLetterFilter()),agentFilter.setStatusOpenFiler(!1),direct.replacehref(),$(&quot;#advance-filter&quot;).hide()}),$(document).on(&quot;click&quot;,&quot;.avatar-list input[type=checkbox]&quot;,function(){var t=agentSelect.getNumberSelect(),e=$(this).data(&quot;idchange&quot;);agentFilter.getStatusOpenFiler()&amp;&amp;$(&quot;.filter-advanced&quot;).hide(),$(this).is(&quot;:checked&quot;)?($(this).parent().parent().css(&quot;display&quot;,&quot;block&quot;),$(&quot;.avatar-list img&quot;).hide(),$(&quot;.avatar-list .checkbox&quot;).show(),$(this).parent().parent().show(),agentSelect.pushToListAgentSelect(e)&amp;&amp;(t++,agentSelect.setNumberSelect(t)),agentSelect.removeFromListAgentSelectNone(e)):($(this).prop(&quot;checked&quot;,!1),$(this).parent().parent().parent().removeAttr(&quot;style&quot;),agentSelect.getStatusSelectAll()&amp;&amp;agentSelect.pushToListAgentSelectNone(e),t--,agentSelect.setNumberSelect(t),agentSelect.removeFromListAgentSelect(e)),0===t?($(&quot;.avatar-list input[type=checkbox]&quot;).prop(&quot;checked&quot;,!1),$(&quot;.avatar-list img&quot;).removeAttr(&quot;style&quot;),$(&quot;.avatar-list .checkbox&quot;).removeAttr(&quot;style&quot;),&quot;&quot;===pagingAgent.getKeyWord().trim()&amp;&amp;$(&quot;.list-filter&quot;).show(),$(&quot;.menu-group-roles&quot;).hide(),$(&quot;.menu-group-roles-view&quot;).hide(),$(&quot;.group-agent&quot;),$(&quot;.menu-select-all-agent&quot;).hide(),$(&quot;#info-select&quot;).hide(),$(&quot;#info-list&quot;).show(),$(&quot;.role-agent&quot;).removeClass(&quot;active&quot;),$(&quot;.menu-role-content&quot;).removeClass(&quot;active&quot;),$(&quot;.menu-role-content&quot;).removeClass(&quot;in&quot;),$(&quot;.group-agent&quot;).removeClass(&quot;active&quot;),$(&quot;.menu-group-content&quot;).removeClass(&quot;active&quot;),$(&quot;.menu-group-content&quot;).removeClass(&quot;in&quot;),agentFilter.getStatusOpenFiler()&amp;&amp;$(&quot;.filter-advanced&quot;).show(),agentSelect.initAllData()):(agentSelect.setStatusSelect(1),$(&quot;.list-filter&quot;).hide(),$(&quot;.menu-group-roles&quot;).show(),$(&quot;.menu-group-roles-view&quot;).show(),$(&quot;.menu-select-all-agent&quot;).show(),$(&quot;#info-select&quot;).show(),$(&quot;#info-list&quot;).hide(),$(&quot;#info-select .info-select&quot;).html(String.format(&quot;{0} {1}/{2} {3}&quot;,Language.Selected,agentSelect.getNumberSelect(),pagingAgent.getTotal(),Language.Agent)))}),$(document).on(&quot;click&quot;,&quot;.select-all&quot;,function(){$(&quot;.avatar-list img&quot;).hide(),$(&quot;.avatar-list .checkbox&quot;).show(),$(&quot;.avatar-list input[type=checkbox]&quot;).prop(&quot;checked&quot;,!0),agentSelect.setNumberSelect(pagingAgent.getTotal()),agentSelect.setStatusSelectAll(!0),agentSelect.setListAgentSelect([]),agentSelect.setStatusSelect(3),$(&quot;#info-select .info-select&quot;).html(String.format(&quot;{0} {1}/{2} {3}&quot;,Language.Selected,agentSelect.getNumberSelect(),pagingAgent.getTotal(),Language.Agent))}),$(document).on(&quot;click&quot;,&quot;.select-none&quot;,function(){$(&quot;.avatar-list img&quot;).removeAttr(&quot;style&quot;),$(&quot;.avatar-list .checkbox&quot;).removeAttr(&quot;style&quot;),$(&quot;.avatar-list input[type=checkbox]&quot;).prop(&quot;checked&quot;,!1),agentSelect.setNumberSelect(0),agentSelect.setStatusSelect(0),agentSelect.setStatusSelectAll(!1),$(&quot;#info-select .info-select&quot;).html(String.format(&quot;{0} {1}/{2} {3}&quot;,Language.Selected,agentSelect.getNumberSelect(),pagingAgent.getTotal(),Language.Agent)),agentSelect.setListAgentSelectNone([]),agentSelect.setListAgentSelect([]),$(&quot;.menu-group-roles&quot;).hide(),$(&quot;#info-list&quot;).show(),$(&quot;#info-select&quot;).hide(),&quot;&quot;===pagingAgent.getKeyWord().trim()&amp;&amp;$(&quot;.list-filter&quot;).show(),$(&quot;.role-agent&quot;).removeClass(&quot;active&quot;),$(&quot;.menu-role-content&quot;).removeClass(&quot;active&quot;),$(&quot;.menu-role-content&quot;).removeClass(&quot;in&quot;),$(&quot;.group-agent&quot;).removeClass(&quot;active&quot;),$(&quot;.menu-group-content&quot;).removeClass(&quot;active&quot;),$(&quot;.menu-group-content&quot;).removeClass(&quot;in&quot;),agentFilter.getStatusOpenFiler()&amp;&amp;$(&quot;.filter-advanced&quot;).show(),pagingListGroup.setListGroups([]),pagingListRole.setListRoles([]),$(&quot;.cancel-change-role&quot;).click(),$(&quot;.cancel-change-group&quot;).click()}),$(document).on(&quot;click&quot;,&quot;.cancel-change-role&quot;,function(){$(&quot;.role-agent&quot;).removeClass(&quot;active&quot;),$(&quot;.menu-role-content&quot;).removeClass(&quot;active&quot;),$(&quot;.menu-role-content&quot;).removeClass(&quot;in&quot;),$(&quot;#role-change-action&quot;).val(null),$(&quot;#role-change-action&quot;).html(&quot;&quot;),$(&quot;#role-change-action&quot;).selectdropdownList(&quot;destroy&quot;),$(&quot;#role-change-action&quot;).selectdropdownList(&quot;refresh&quot;),pagingListRole.setListRoles([])}),$(document).on(&quot;click&quot;,&quot;.cancel-change-group&quot;,function(){$(&quot;.group-agent&quot;).removeClass(&quot;active&quot;),$(&quot;.menu-group-content&quot;).removeClass(&quot;active&quot;),$(&quot;.menu-group-content&quot;).removeClass(&quot;in&quot;),$(&quot;#group-change-action&quot;).val(null),$(&quot;#group-change-action&quot;).html(&quot;&quot;),$(&quot;#group-change-action&quot;).selectdropdownList(&quot;destroy&quot;),$(&quot;#group-change-action&quot;).selectdropdownList(&quot;refresh&quot;),pagingListGroup.setListGroups([])}),$(document).on(&quot;click&quot;,&quot;.apply-change-role&quot;,function(){return agentSelect.setListRoleChange([]),agentSelect.setListRoleChange($(&quot;#role-change-action&quot;).val()),agentSelect.getListRoleChange().length&lt;=0?(Materialize.toast(String.format(&quot;{0}&quot;,Language.PleaseSelectRole),3e3),!1):void agentSelect.changeRoleAgent(agentFilter,function(){},function(t){try{var e=JSON.parse(t);1===e.status&amp;&amp;e.data.code?(Materialize.toast(String.format(&quot;{0} {1} {2} {3}&quot;,Language.ChangeRole,Language.For,Language.AgentLower,Language.Success),3e3),agentSelect.setStatusSelect(0),$(&quot;.select-none&quot;).click(),pagingAgent.setPageIndex(1),pagingAgent.setCurrent(0),pagingAgent.getListAgentFromURL(function(){pagingAgent.setStatusBusy(!0)},listAgent.createTemplate,function(){pagingAgent.setStatusBusy(!1)}),pagingListRole.setListRoles([]),$(&quot;.cancel-change-role&quot;).click()):-1===e.status?window.location=urllogin:Materialize.toast(String.format(&quot;{0} {1} {2} {3}&quot;,Language.ChangeRole,Language.For,Language.AgentLower,Language.Error),5e3)}catch(a){Materialize.toast(String.format(&quot;{0} {1} {2} {3}&quot;,Language.ChangeRole,Language.For,Language.AgentLower,Language.Error),5e3)}},function(){})}),$(document).on(&quot;click&quot;,&quot;.apply-change-group&quot;,function(){return agentSelect.setListGroupChange([]),agentSelect.setListGroupChange($(&quot;#group-change-action&quot;).val()),agentSelect.getListGroupChange().length&lt;=0?(Materialize.toast(String.format(&quot;{0}&quot;,Language.PleaseSelectGroup),3e3),!1):void agentSelect.changeGroupAgent(agentFilter,function(){},function(t){try{var e=JSON.parse(t);1===e.status&amp;&amp;e.data.code?(Materialize.toast(String.format(&quot;{0} {1} {2} {3}&quot;,Language.ChangeGroup,Language.For,Language.AgentLower,Language.Success),3e3),agentSelect.setStatusSelect(0),$(&quot;.select-none&quot;).click(),pagingAgent.setPageIndex(1),pagingAgent.setCurrent(0),pagingAgent.getListAgentFromURL(function(){pagingAgent.setStatusBusy(!0)},listAgent.createTemplate,function(){pagingAgent.setStatusBusy(!1)}),$(&quot;.cancel-change-group&quot;).click(),pagingListGroup.setListGroups([])):-1===e.status?window.location=urllogin:Materialize.toast(String.format(&quot;{0} {1} {2} {3}&quot;,Language.ChangeGroup,Language.For,Language.AgentLower,Language.Error),5e3)}catch(a){Materialize.toast(String.format(&quot;{0} {1} {2} {3}&quot;,Language.ChangeGroup,Language.For,Language.AgentLower,Language.Error),5e3)}},function(){})}),$(document).on(&quot;click&quot;,&quot;.content-role-change&quot;,function(){return pagingListRole.getStatusBusy()?!1:(pagingListGroup.setListGroups([]),$(&quot;#group-change-action&quot;).val(null),pagingListRole.setListRoles($(&quot;#role-change-action&quot;).val()),void pagingListRole.getListRolesFromURL(function(){pagingListRole.setStatusBusy(!0),$(&quot;#role-change-action&quot;).val(null),$(&quot;#role-change-action&quot;).html(&quot;&quot;)},listAgent.buildHTMLChangeRoleAction,function(){$(&quot;#role-change-action&quot;).selectdropdownList(&quot;destroy&quot;),$(&quot;#role-change-action&quot;).selectdropdownList(&quot;refresh&quot;),pagingListRole.setStatusBusy(!1)}))}),$(document).on(&quot;click&quot;,&quot;.content-group-change&quot;,function(){return pagingListGroup.getStatusBusy()?!1:(pagingListGroup.setListGroups($(&quot;#group-change-action&quot;).val()),pagingListRole.setListRoles([]),$(&quot;#role-change-action&quot;).val(null),void pagingListGroup.getListGroupFromURL(function(){$(&quot;#group-change-action&quot;).val(null),$(&quot;#group-change-action&quot;).html(&quot;&quot;),pagingListGroup.setStatusBusy(!0)},listAgent.buildHTMLChangeGroupAction,function(){$(&quot;#group-change-action&quot;).selectdropdownList(&quot;destroy&quot;),$(&quot;#group-change-action&quot;).selectdropdownList(&quot;refresh&quot;),pagingListGroup.setStatusBusy(!1)}))}),$(document).on(&quot;click&quot;,&quot;#open-filter-advance&quot;,function(){return $(&quot;.filter-advanced&quot;).show(),$(&quot;.pagination-customer li&quot;).removeClass(&quot;active&quot;),$(&quot;.pagination-customer li:first-child&quot;).addClass(&quot;active&quot;),$(this).addClass(&quot;active&quot;),pagingAgent.getStatusBusy()?!1:(agentFilter.setStatusOpenFiler(!0),agentFilter.setListStatus($(&quot;#status-filter-action&quot;).val()),agentFilter.setListGroup($(&quot;#group-filter-action&quot;).val()),agentFilter.setListRole($(&quot;#role-filter-action&quot;).val()),pagingAgent.getListGroupFromURL(function(){$(&quot;#group-filter-action&quot;).val(null),$(&quot;#group-filter-action&quot;).html(&quot;&quot;)},listAgent.buildHTMLFilterGroupAction,function(){$(&quot;#group-filter-action&quot;).selectdropdownList(&quot;destroy&quot;),$(&quot;#group-filter-action&quot;).selectdropdownList(&quot;refresh&quot;)}),&quot;&quot;!==agentFilter.getLetterFilter()&amp;&amp;(pagingAgent.initData(),pagingAgent.setPageSize(20),pagingAgent.getListAgentFromURL(function(){pagingAgent.setStatusBusy(!0),console.log(&quot;Letter&quot;)},listAgent.createTemplate,function(){pagingAgent.setStatusBusy(!1)})),pagingAgent.getListRolesFromURL(function(){$(&quot;#role-filter-action&quot;).val(null),$(&quot;#role-filter-action&quot;).html(&quot;&quot;)},listAgent.buildHTMLFilterRoleAction,function(){$(&quot;#role-filter-action&quot;).selectdropdownList(&quot;destroy&quot;),$(&quot;#role-filter-action&quot;).selectdropdownList(&quot;refresh&quot;)}),agentFilter.setLetterFilter(&quot;all&quot;),$(&quot;#status-filter-action&quot;).val(null),$(&quot;#status-filter-action&quot;).selectdropdownList(&quot;destroy&quot;),$(&quot;#status-filter-action&quot;).html(&quot;&quot;),listAgent.buildHTMLFilterStatusAction([{statusid:&quot;Active&quot;,name:Language.StatusActive},{statusid:&quot;Deactive&quot;,name:Language.StatusDeActive}]),void $(&quot;#status-filter-action&quot;).selectdropdownList(&quot;refresh&quot;))}),$(document).on(&quot;click&quot;,&quot;.cancel-filter-advance&quot;,function(){$(&quot;.filter-advanced&quot;).hide(),agentFilter.initData(),$(&quot;.pagination-customer li&quot;).removeClass(&quot;active&quot;),$(&quot;.pagination-customer li:first-child&quot;).addClass(&quot;active&quot;),$(&quot;#group-filter-action&quot;).val(null),$(&quot;#group-filter-action&quot;).selectdropdownList(&quot;destroy&quot;),$(&quot;#group-filter-action&quot;).selectdropdownList(&quot;refresh&quot;),$(&quot;#role-filter-action&quot;).val(null),$(&quot;#role-filter-action&quot;).selectdropdownList(&quot;destroy&quot;),$(&quot;#role-filter-action&quot;).selectdropdownList(&quot;refresh&quot;),$(&quot;#status-filter-action&quot;).val(null),$(&quot;#status-filter-action&quot;).selectdropdownList(&quot;destroy&quot;),$(&quot;#status-filter-action&quot;).selectdropdownList(&quot;refresh&quot;),direct.initData(),direct.replacehref()}),$(document).on(&quot;keydown&quot;,&quot;#key-search&quot;,function(t){if(13==t.keyCode){if(pagingAgent.getStatusBusy())return!1;listAgent.searchAction($(&quot;#key-search&quot;).val())}}),$(document).on(&quot;click&quot;,&quot;#search-icon&quot;,function(){return pagingAgent.getStatusBusy()?!1:void listAgent.searchAction($(&quot;#key-search&quot;).val())}),$(document).on(&quot;click&quot;,&quot;#create-agent&quot;,function(){var t=$(this).attr(t);$(this).attr(&quot;href&quot;,t+&quot;?filter=&quot;+direct.genLink())}),$(window).scroll(function(){$(window).scrollTop()+$(window).height()&gt;=$(&quot;.list-data-ajax&quot;).height()&amp;&amp;(listAgent.scroll=!0,pagingAgent.getStatusBusy()||pagingAgent.getStatusStop()||(pagingAgent.setPageIndex(pagingAgent.getPageIndex()+1),pagingAgent.getListAgentFromURL(function(){pagingAgent.setStatusBusy(!0)},listAgent.createTemplateScroll,function(){pagingAgent.setStatusBusy(!1)})))}),$(document).on(&quot;click&quot;,&quot;#apply-filter&quot;,function(){return pagingAgent.getStatusBusy()?!1:(agentFilter.setListGroup($(&quot;#group-filter-action&quot;).val()),agentFilter.setListRole($(&quot;#role-filter-action&quot;).val()),agentFilter.setListStatus($(&quot;#status-filter-action&quot;).val()),agentFilter.setStatusOpenFiler(!0),direct.setFilter(agentFilter.getLetterFilter()),direct.setKeyWord(&quot;&quot;),direct.setRoles(agentFilter.getListRole()),direct.setGroupAgent(agentFilter.getListGroup()),direct.setStatus(agentFilter.getListStatus()),direct.setisOpenFilter(!0),direct.replacehref(),pagingAgent.initData(),pagingAgent.setLetterFilter(agentFilter.getLetterFilter()),pagingAgent.setKeyWord(agentFilter.getKeyWord()),pagingAgent.setListStatus(agentFilter.getListStatus()),pagingAgent.setListGroups(agentFilter.getListGroup()),pagingAgent.setListRoles(agentFilter.getListRole()),void pagingAgent.getListAgentFromURL(function(){pagingAgent.setStatusBusy(!0)},listAgent.createTemplate,function(){pagingAgent.setStatusBusy(!1)}))})},$(document).ready(function(){listAgent.listenEvent(),listAgent.restoreLink()}),&quot;onhashchange&quot;in window&amp;&amp;window.addEventListener(&quot;hashchange&quot;,getHashValue,!1);</find>
+      <find>6</find>
+      <find>123</find>
+      <find>lever-4</find>
+      <find>notifications</find>
     </findStrings>
-    <replaceStrings>
-      <replace>../lib/assets</replace>
-      <replace>lib/</replace>
-    </replaceStrings>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lib/css/result.css" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/lib/dashboard.html" />
-        <option value="$PROJECT_DIR$/dashboard.html" />
+        <option value="$PROJECT_DIR$/public/lib/ajaxwrapper.js" />
+        <option value="$PROJECT_DIR$/public/gettopdice.js" />
+        <option value="$PROJECT_DIR$/public/lib/utils.js" />
+        <option value="$PROJECT_DIR$/public/lib/gettopdice.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/routes/list_top.js" />
+        <option value="$PROJECT_DIR$/views/list-top.ejs" />
+        <option value="$PROJECT_DIR$/views/index.ejs" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="75" />
-    <option name="y" value="-4" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
     <option name="width" value="1301" />
-    <option name="height" value="1084" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -122,35 +184,58 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="front-end-tx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="front-end-tx" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="javascript.nodejs.core.library.configured.version" value="9.3.0" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/routes" />
+      <recent name="$PROJECT_DIR$/views" />
+      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib/assets/img" />
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/public/lib" />
+      <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -173,39 +258,34 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e36ba278-27a2-4771-ab18-a380d294c711" name="Default" comment="" />
-      <created>1516588745339</created>
+      <changelist id="230e9fa7-6542-4a8d-aa00-cc13263b6f8c" name="Default" comment="" />
+      <created>1517767822932</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1516588745339</updated>
-      <workItem from="1516588748373" duration="4667000" />
-      <workItem from="1516773530794" duration="4416000" />
-      <workItem from="1517631398074" duration="855000" />
-      <workItem from="1517754076823" duration="3014000" />
-      <workItem from="1517757404454" duration="3566000" />
-      <workItem from="1517767779861" duration="43000" />
-      <workItem from="1517767862532" duration="664000" />
-      <workItem from="1517848716970" duration="12000" />
+      <updated>1517767822932</updated>
+      <workItem from="1517767824780" duration="1679000" />
+      <workItem from="1517848735823" duration="4225000" />
+      <workItem from="1517919442278" duration="3179000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17237000" />
+    <option name="totallyTimeSpent" value="9083000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="75" y="-4" width="1303" height="780" extended-state="6" />
-    <editor active="true" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17762129" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1779476" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39811912" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -222,48 +302,111 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="28" lean-forward="false" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/assets/js/demo.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4014">
+          <caret line="223" column="34" lean-forward="false" selection-start-line="223" selection-start-column="34" selection-end-line="223" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/lib/ajaxwrapper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/lib/gettopdice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <marker date="1517919720885" expanded="true" signature="414:428" ph="..." />
+            <marker date="1517919720885" expanded="true" signature="637:654" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/lib/css/result.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2772">
-          <caret line="162" column="46" lean-forward="false" selection-start-line="162" selection-start-column="46" selection-end-line="162" selection-end-column="46" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="219" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/lib/ajaxwrapper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/lib/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2808">
+          <caret line="156" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/lib/gettopdice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#nav#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1517919720885" expanded="true" signature="414:428" ph="..." />
+            <marker date="1517919720885" expanded="true" signature="637:654" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="28" lean-forward="false" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/assets/js/demo.js">
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -271,28 +414,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/css/result.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2772">
-          <caret line="162" column="46" lean-forward="false" selection-start-line="162" selection-start-column="46" selection-end-line="162" selection-end-column="46" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#nav#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -300,158 +422,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/assets/js/demo.js">
+    <entry file="file://$PROJECT_DIR$/routes/list_top.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="72">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard.html">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2916">
-          <caret line="162" column="46" lean-forward="true" selection-start-line="162" selection-start-column="46" selection-end-line="162" selection-end-column="46" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#nav#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="28" lean-forward="false" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+        <state relative-caret-position="215">
+          <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/assets/js/demo.js">
+    <entry file="file://$PROJECT_DIR$/views/list-top.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="576">
+          <caret line="154" column="7" lean-forward="true" selection-start-line="154" selection-start-column="7" selection-end-line="154" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard.html">
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3060">
-          <caret line="170" column="42" lean-forward="true" selection-start-line="170" selection-start-column="42" selection-end-line="170" selection-end-column="42" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#nav#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/assets/js/demo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/css/result.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#nav#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/css/result.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/css/result.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="20" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/assets/js/demo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="28" lean-forward="false" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="177" column="43" lean-forward="true" selection-start-line="177" selection-start-column="43" selection-end-line="177" selection-end-column="43" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#nav#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/css/result.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        <state relative-caret-position="333">
+          <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
           <folding />
         </state>
       </provider>
