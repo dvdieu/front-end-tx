@@ -3,7 +3,6 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('list-top', {  });
+  res.render('history',{ extractScripts: true });
 });
-
 module.exports = router;
