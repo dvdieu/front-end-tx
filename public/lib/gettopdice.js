@@ -1,7 +1,7 @@
 var source="gameduathu";
 function getLever(lv,tag,color) {
     var t = new AJAXWRAPPER();
-    t.URL="http://125.212.254.131:3001/top/"+source+"?lever="+lv;
+    t.URL="//125.212.254.131:3001/top/"+source+"?lever="+lv;
     t.getDataFromURL(
         function () {
             $("#lever-"+lv).html("");
