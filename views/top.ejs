@@ -37,7 +37,7 @@
     var source="gameduathu";
     $(document).ready(function() {
         var t = new AJAXWRAPPER();
-        t.URL="http://125.212.254.131:3001/top/"+source+"?lever=0";
+        t.URL="http://localhost:3001/top/"+source+"?lever=0";
         t.getDataFromURL(
             function () {
 
@@ -66,7 +66,8 @@
                             className: 'mdl-data-table__cell--non-numeric',
                         }
                     ],
-                    pageLength: 5
+                    pageLength: 5,
+                    "order": [[ 3, "desc" ]]
                 } );
             }
         );
