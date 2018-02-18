@@ -10,11 +10,21 @@ function getLever(lv,tag,color) {
             var data = JSON.parse(x);
             if(data.length>0){
                 for(var i=0;i<data.length;i++) {
+                    let thumb = "thumb_up";
+                    if(data[i].label==="X" || data[i].label==="x"){
+                        thumb = "thumb_down";
+                    }   
                     var x = String.format('<div class="col-sm-2"  style="padding: 20px;">\n' +
                         '                          <div class="card-header" data-background-color={0}>\n' +
-                        '                              <span class="text-center" style="font-size: larger">{1}</span>\n' +
+                        '                              <span href="#" class="text-center">\n' +
+                        '                                      {1}\n' +
+                        '                                      <i class="material-icons" style="\n' +
+                        '                                      position: absolute;bottom: 20px;\n' +
+                        '                                      right: 20px;">{2}</i>\n' +
+                        '                                    </span>\n' +
                         '                          </div>\n' +
-                        '                        </div>',color,data[i].index);
+                        '                        </div>',color,data[i].index,thumb);
+
                     $("#"+tag).append(x);
                 }
             }
