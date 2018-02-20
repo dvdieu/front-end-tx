@@ -13,7 +13,7 @@ function getLever(lv,tag,color) {
                     let thumb = "thumb_up";
                     if(data[i].label==="X" || data[i].label==="x"){
                         thumb = "thumb_down";
-                    }   
+                    }
                     var x = String.format('<div class="col-sm-2"  style="padding: 20px;">\n' +
                         '                          <div class="card-header" data-background-color={0}>\n' +
                         '                              <span href="#" class="text-center">\n' +

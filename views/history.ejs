@@ -8,25 +8,15 @@
             <table id="example" class="mdl-data-table" cellspacing="0" width="100%">
               <thead>
               <tr>
-                <th>id-data</th>
-                <th>Dice 1</th>
-                <th>Dice 2</th>
-                <th>Dice 3</th>
                 <th>GameId</th>
                 <th>Sum</th>
-                <th>Last update</th>
                 <th>Dice</th>
               </tr>
               </thead>
               <tfoot>
               <tr>
-                <th>id-data</th>
-                <th>Dice 1</th>
-                <th>Dice 2</th>
-                <th>Dice 3</th>
                 <th>GameId</th>
                 <th>Sum</th>
-                <th>Last update</th>
                 <th>Dice</th>
               </tr>
               </tfoot>
@@ -43,7 +33,7 @@
     var source="gameduathu";
     $(document).ready(function() {
         var t = new AJAXWRAPPER();
-        t.URL="http://125.212.254.131:3001/history/"+source;
+        t.URL="http://localhost:3001/history/"+source;
         t.getDataFromURL(
             function () {
 
@@ -54,12 +44,15 @@
                 data.forEach(function (value,index) {
                     let tr="<tr>";
                     for(var propertyName in value) {
+                        if(propertyName==="_id"){
+                            continue;
+                        }
                         if(propertyName==="time"){
+                            continue;
                             let td=String.format("<td>{0}</td>",moment(value[propertyName]).format("DD MM YYYY hh:mm a"));
                             tr+=td;
                             continue;
                         }
-
                         let td=String.format("<td>{0}</td>",value[propertyName]);
                         tr+=td;
                         // propertyName is what you want

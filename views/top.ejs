@@ -8,7 +8,6 @@
             <table id="example" class="mdl-data-table" cellspacing="0" width="100%">
               <thead>
               <tr>
-                <th>id-data</th>
                 <th>Dice</th>
                 <th>Sum</th>
                 <th>Level</th>
@@ -17,7 +16,6 @@
               </thead>
               <tfoot>
               <tr>
-                <th>id-data</th>
                 <th>Dice</th>
                 <th>Sum</th>
                 <th>Level</th>
@@ -37,7 +35,7 @@
     var source="gameduathu";
     $(document).ready(function() {
         var t = new AJAXWRAPPER();
-        t.URL="http://125.212.254.131:3001/top/"+source+"?lever=0";
+        t.URL="http://localhost:3001/top/"+source+"?lever=0";
         t.getDataFromURL(
             function () {
 
@@ -48,6 +46,7 @@
                 data.forEach(function (value,index) {
                     let tr="<tr>";
                     for(var propertyName in value) {
+                        if(propertyName==="_id") continue;
                         let td=String.format("<td>{0}</td>",value[propertyName]);
                         tr+=td;
                         // propertyName is what you want
@@ -67,7 +66,7 @@
                         }
                     ],
                     pageLength: 5,
-                    "order": [[ 3, "desc" ]]
+                    "order": [[ 2, "desc" ]]
                 } );
             }
         );
