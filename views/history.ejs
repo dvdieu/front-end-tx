@@ -1,39 +1,41 @@
 <div class="col-md-12">
-        <div class="card card-plain">
-          <div class="card-header" data-background-color="green">
+    <div class="card card-plain">
+        <div class="card-header" data-background-color="green">
             <h4 class="title">Lịch sử game</h4>
             <p class="category">Here is a subtitle for this table</p>
-          </div>
-          <div class="card-content table-responsive">
+        </div>
+        <div class="card-content table-responsive">
             <table id="example" class="mdl-data-table" cellspacing="0" width="100%">
-              <thead>
-              <tr>
-                <th>GameId</th>
-                <th>Sum</th>
-                <th>Dice</th>
-              </tr>
-              </thead>
-              <tfoot>
-              <tr>
-                <th>GameId</th>
-                <th>Sum</th>
-                <th>Dice</th>
-              </tr>
-              </tfoot>
-              <tbody id="history">
+                <thead>
+                <tr>
+                    <th>GameId</th>
+                    <th>Sum</th>
+                    <th>Dice</th>
+                </tr>
+                </thead>
+                <tfoot>
+                <tr>
+                    <th>GameId</th>
+                    <th>Sum</th>
+                    <th>Dice</th>
+                </tr>
+                </tfoot>
+                <tbody id="history">
 
-              </tbody>
+                </tbody>
             </table>
-          </div>
         </div>
     </div>
+</div>
 <script src="lib/datatable/jquery.dataTables.min.js"></script>
 <script src="lib/datatable/dataTables.material.min.js"></script>
 <script type="text/javascript">
-    var source="gameduathu";
-    $(document).ready(function() {
+    var source = "gowin";
+    var url = "http://125.212.254.131:3001";
+    $(document).ready(function () {
         var t = new AJAXWRAPPER();
-        t.URL="http://125.212.254.131:3001/history/"+source;
+        // t.URL="http://125.212.254.131:3001/history/"+source;
+        t.URL = url + "/history/" + source;
         t.getDataFromURL(
             function () {
 
@@ -41,41 +43,41 @@
             function (x) {
                 var data = JSON.parse(x);
 
-                data.forEach(function (value,index) {
-                    let tr="<tr>";
-                    for(var propertyName in value) {
-                        if(propertyName==="_id"){
+                data.forEach(function (value, index) {
+                    let tr = "<tr>";
+                    for (var propertyName in value) {
+                        if (propertyName === "_id") {
                             continue;
                         }
-                        if(propertyName==="time"){
+                        if (propertyName === "time") {
                             continue;
-                            let td=String.format("<td>{0}</td>",moment(value[propertyName]).format("DD MM YYYY hh:mm a"));
-                            tr+=td;
+                            let td = String.format("<td>{0}</td>", moment(value[propertyName]).format("DD MM YYYY hh:mm a"));
+                            tr += td;
                             continue;
                         }
-                        let td=String.format("<td>{0}</td>",value[propertyName]);
-                        tr+=td;
+                        let td = String.format("<td>{0}</td>", value[propertyName]);
+                        tr += td;
                         // propertyName is what you want
                         // you can get the value like this: myObject[propertyName]
                     }
-                    tr+="</tr>";
+                    tr += "</tr>";
                     $("#history").append(tr);
                 });
             },
             function (data) {
-                $('#example').DataTable( {
-                    "lengthMenu":  [ [5,10, 25, 500, -1], [5,10, 25, 500, "All"] ],
+                $('#example').DataTable({
+                    "lengthMenu": [[5, 10, 25, 500, -1], [5, 10, 25, 500, "All"]],
                     columnDefs: [
                         {
-                            targets: [ 0, 1, 2 ],
+                            targets: [0, 1, 2],
                             className: 'mdl-data-table__cell--non-numeric',
                         }
                     ],
                     pageLength: 5
-                } );
+                });
             }
         );
 
 
-    } );
+    });
 </script>
