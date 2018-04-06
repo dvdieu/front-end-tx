@@ -31,8 +31,8 @@
             console.log("Insert DB");
             var dataPost={
                 dice1:data.result[0],
-                dice2:data.result[0],
-                dice3:data.result[0],
+                dice2:data.result[1],
+                dice3:data.result[2],
                 gameid:parseInt(data.diceId)
             };
             await axios.post("http://125.212.254.131:3002/set/gowin",dataPost, {
