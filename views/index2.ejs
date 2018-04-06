@@ -1,0 +1,79 @@
+<html>
+<head>
+    <script src="lib/axios.min.js"></script>
+</head>
+<body>
+<script>
+    var is_get = false;
+    var is_new = false;
+
+    async function fetchData(data) {
+        console.log(data);
+        if (data.IsMaintainance) {
+            console.log("Bao Tri");
+            is_get=false;
+            is_new=false;
+            return;
+        }
+        if (data.countdown > 0) {
+            console.log("exit");
+            if(is_new){
+                console.log("NEW GAME");
+                is_new=false;
+            }
+            return;
+        }
+        if (parseFloat(data.countdown) === 0 &&
+            parseFloat(data.scountdown.replace(",", ".")) > 0 &&
+            is_get == false
+        ) {
+            console.log("Insert DB");
+            var dataPost={
+                dice1:data.result[0],
+                dice2:data.result[0],
+                dice3:data.result[0],
+                gameid:parseInt(data.diceId)
+            };
+            await axios.post("http://125.212.254.131:3002/set/gowin",dataPost, {
+                headers: {
+                    'Access-Control-Allow-Origin': '*',
+                    'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept'
+                }
+            })
+            is_get = true;
+            is_new=true;
+        }
+    }
+
+    async function getUser() {
+        try {
+            var config = {
+                headers: {'Access-Control-Allow-Origin': '*'}
+            };
+            const response = await axios.get('http://api.go.win/api/dice/countdown',
+                {
+                    headers: {
+                        'Access-Control-Allow-Origin': '*',
+                        'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept'
+                    }
+                }
+            );
+            await fetchData(response.data);
+        } catch (error) {
+            console.error(error);
+        }
+    }
+
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    (async function () {
+        while (true) {
+            await getUser();
+            await sleep(500);
+        }
+    })();
+</script>
+</body>
+</html>

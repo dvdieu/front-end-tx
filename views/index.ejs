@@ -110,3 +110,48 @@
       </div>
     </div>
 <script src="lib/gettopdice.js"></script>
+<script>
+    var is_get = false;
+    function fetchData(data) {
+        if (data.IsMaintainance) {
+            console.log("Bao Tri");
+            return;
+        }
+        if (data.countdown > 0) {
+            console.log(data);
+            console.log("exit");
+            return;
+        }
+        else if (parseFloat(data.countdown) === 0 && parseFloat(data.scountdown) > 0 && is_get===false) {
+            is_get = true;
+            console.log("insert db");
+            console.log(data.result);
+            return;
+        }
+        else if (parseFloat(data.countdown) === 0 && parseFloat(data.scountdown) === 0 && parseFloat(data.scountdown_delay) === 0 && is_get) {
+            //SET NEW ID;
+            is_get = false;
+            console.log(data.diceId);
+            return;
+        }
+    }
+
+    var inter = setInterval(function () {
+        $.ajax({
+            type: 'GET',
+            dataType: 'text',
+            url: 'http://api.go.win/api/dice/countdown',
+            beforeSend: function () {
+
+            },
+            success: function (result) {
+
+                fetchData(JSON.parse(result));
+            },
+            complete: function () {
+
+            }
+        }).always(function () {
+        });
+    },2000);
+</script>
