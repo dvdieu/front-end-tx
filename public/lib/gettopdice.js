@@ -49,6 +49,42 @@ $(document).ready(function () {
     setInterval(function () {
         getLever(6, "lever-6", "orange");
     }, 30000);
+    getLever(7, "lever-7", "orange");
+    setInterval(function () {
+        getLever(7, "lever-7", "orange");
+    }, 30000);
+    getLever(8, "lever-8", "orange");
+    setInterval(function () {
+        getLever(8, "lever-8", "orange");
+    }, 30000);
+    getLever(9, "lever-9", "orange");
+    setInterval(function () {
+        getLever(9, "lever-9", "orange");
+    }, 30000);
+    getLever(10, "lever-10", "orange");
+    setInterval(function () {
+        getLever(10, "lever-10", "orange");
+    }, 30000);
+    getLever(11, "lever-11", "orange");
+    setInterval(function () {
+        getLever(11, "lever-11", "orange");
+    }, 30000);
+    getLever(12, "lever-12", "orange");
+    setInterval(function () {
+        getLever(12, "lever-12", "orange");
+    }, 30000);
+    getLever(13, "lever-13", "orange");
+    setInterval(function () {
+        getLever(13, "lever-13", "orange");
+    }, 30000);
+    getLever(14, "lever-14", "orange");
+    setInterval(function () {
+        getLever(14, "lever-14", "orange");
+    }, 30000);
+    getLever(15, "lever-15", "orange");
+    setInterval(function () {
+        getLever(15, "lever-15", "orange");
+    }, 30000);
 });
 
 $(document).on("click", ".top-game", function (self) {
@@ -59,4 +95,22 @@ $(document).on("click", ".top-game", function (self) {
     getLever(5, "lever-5", "green");
     $("#lever-6").html("");
     getLever(6, "lever-6", "orange");
+    $("#lever-7").html("");
+    getLever(7, "lever-7", "orange");
+    $("#lever-8").html("");
+    getLever(8, "lever-8", "orange");
+    $("#lever-9").html("");
+    getLever(9, "lever-9", "orange");
+    $("#lever-10").html("");
+    getLever(10, "lever-10", "orange");
+    $("#lever-11").html("");
+    getLever(11, "lever-11", "orange");
+    $("#lever-12").html("");
+    getLever(12, "lever-12", "orange");
+    $("#lever-13").html("");
+    getLever(13, "lever-13", "orange");
+    $("#lever-14").html("");
+    getLever(14, "lever-14", "orange");
+    $("#lever-45").html("");
+    getLever(15, "lever-15", "orange");
 });

@@ -1,41 +1,81 @@
-<div class="col-md-12">
-    <div class="card card-plain">
-        <div class="card-header" data-background-color="green">
-            <h4 class="title">Danh Sách Lever</h4>
-            <p class="category">Here is a subtitle for this table</p>
+<div class="col-lg-12 col-md-12">
+    <div class="card card-nav-tabs" style="background-color:#EEEEEE;box-shadow: none">
+        <div class="card-header" data-background-color="orange">
+            <div class="nav-tabs-navigation">
+                <div class="nav-tabs-wrapper">
+                    <ul class="nav nav-tabs" data-tabs="tabs">
+                        <li class="active top-game" data-source="gowin">
+                            <a href="#profile" data-toggle="tab">
+                                <i class="material-icons">cloud</i>Gowin
+                                <div class="ripple-container"></div>
+                            </a>
+                        </li>
+                        <li class="top-game" data-source="vzon">
+                            <a href="#profile" data-toggle="tab">
+                                <i class="material-icons">cloud</i>VZON
+                                <div class="ripple-container"></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="card-content table-responsive">
-            <table id="example" class="mdl-data-table" cellspacing="0" width="100%">
-                <thead>
-                <tr>
-                    <th>Dice</th>
-                    <th>Sum</th>
-                    <th>Level</th>
-                    <th>Title</th>
-                </tr>
-                </thead>
-                <tfoot>
-                <tr>
-                    <th>Dice</th>
-                    <th>Sum</th>
-                    <th>Level</th>
-                    <th>Title</th>
-                </tr>
-                </tfoot>
-                <tbody id="top">
+        <div class="card-content">
+            <div class="tab-content">
+                <div class="tab-pane active" id="profile">
+                    <div class="col-sm-12">
+                        <div class="card-content">
+                            <div class="col-md-12">
+                                <div class="card card-plain">
+                                    <div class="card-header" data-background-color="green">
+                                        <h4 class="title">TOP LEVER</h4>
+                                        <p class="category">Here is a subtitle for this table</p>
+                                    </div>
+                                    <div class="card-content table-responsive">
+                                        <table id="example" class="mdl-data-table" cellspacing="0" width="100%">
+                                            <thead>
+                                            <tr>
+                                                <th>Dice</th>
+                                                <th>Sum</th>
+                                                <th>Level</th>
+                                                <th>Title</th>
+                                            </tr>
+                                            </thead>
+                                            <tfoot>
+                                            <tr>
+                                                <th>Dice</th>
+                                                <th>Sum</th>
+                                                <th>Level</th>
+                                                <th>Title</th>
+                                            </tr>
+                                            </tfoot>
+                                            <tbody id="top">
 
-                </tbody>
-            </table>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="messages">
+
+                </div>
+                <div class="tab-pane" id="settings">
+
+                </div>
+            </div>
         </div>
     </div>
 </div>
+<!---->
 <script src="lib/datatable/jquery.dataTables.min.js"></script>
 <script src="lib/datatable/dataTables.material.min.js"></script>
 <script type="text/javascript">
     var source = "gowin";
     var url = "http://125.212.254.131:3001";
-
-    $(document).ready(function () {
+    function getTOP(source) {
         var t = new AJAXWRAPPER();
         // t.URL="http://125.212.254.131:3001/top/list/"+source;
         t.URL = url + "/top/list/" + source;
@@ -73,7 +113,16 @@
                 });
             }
         );
+    }
+    $(document).ready(function () {
+        getTOP(source);
+    });
 
-
+    $(document).on("click", ".top-game", function (self) {
+        $('#example').dataTable().fnClearTable();
+        $('#example').dataTable().fnDestroy();
+        source = $(this).data('source');
+        getTOP(source);
     });
 </script>
+<!--https://japanesequizzes.com/portfolio/kanji-challenge-01/level-07/-->
