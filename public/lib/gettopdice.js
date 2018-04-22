@@ -1,4 +1,4 @@
-var source = "gowin";
+var source = "gem";
 var url = "http://125.212.254.131:3001";
 
 function getLever(lv, tag, color) {
